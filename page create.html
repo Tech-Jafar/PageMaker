@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://pagecreate.com</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="note css.css/page create.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head">
+            <div class="photo"><a href="index.html"><i class="fa-solid fa-desktop white"></i></a></div>
+            <a href="index.html" class="webname">PAGE MAKER</a>
+            <ul>
+                <li><a href="page demo.html" target="_blank">Demo</a></li>
+                <li class="under"><a href="page create.html" target="_blank">Create</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="help us.html" target="_blank">Help us</a></li>
+            </ul>
+            <div class="login">
+                <a href="#" target="_blank"><i class="fab fa-google"></i> login</a>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="left-right">
+                <div class="box-button">
+                    <!-- head secation -->
+                    <h3 style="text-align: center; color: white;">Head-secation</h3>
+                    <hr>
+                    <h4 style="color: white;">align</h4>
+                    <ul class="color-align">
+                        <li onclick="document.getElementById('head-section').style.textAlign='left'"><i
+                                class="fas fa-align-left" title="left"></i></li>
+                        <li onclick="document.getElementById('head-section').style.textAlign='center'"><i
+                                class="fas fa-align-center" title="center"></i></li>
+                        <li onclick="document.getElementById('head-section').style.textAlign='right'"><i
+                                class="fas fa-align-right" title="right"></i></li>
+                        <li onclick="document.getElementById('head-section').style.textAlign='justify'"><i
+                                class="fas fa-align-justify" title="justify"></i></li>
+
+                        <li onclick="document.getElementById('head-section').style.lineHeight='70px'"><i
+                                class="fas fa-grip-lines" title="valign"></i></li>
+
+
+                    </ul>
+                    <!-- <ul>
+                        <li> -->
+
+                    <p>
+                 <h4 style="padding-top: 5px; color: white;">font size & font style</h4>
+                    <select class="section" onchange="fontpx(this.value)">
+                        <option value="8px">12</option>
+                        <option value="9px">13</option>
+                        <option value="10px">14</option>
+                        <option value="12px">15</option>
+                        <option value="1rem">16</option>
+                        <option value="1.5rem">17</option>
+                        <option value="2rem">18</option>
+                        <option value="2.5rem">19</option>
+                        <option value="3rem">20</option>
+                    </select>
+
+                    <select class="section" onchange="fontem(this.value)">
+                        <option value="italic"> italic</option>
+                        <option value="oblique">oblique</option>
+                        <option value=" normal"> normal</option>
+                    </select>
+                    
+                    <select class="section" onchange="weight(this.value)">
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                    <option value="600">600</option>
+                    <option value="700">700</option>
+                    <option value="800">800</option>
+                    <option value="900">900</option>
+                    <option value="bold" selected>bold</option>
+                    <option value="bolder">bolder</option>
+                    <option value="lighter">lighter</option>
+                </select>
+                
+                    </p>
+
+                    <!-- </li>
+                    </ul> -->
+
+                    <h4 style="padding-top: 2px; color: white;">font color</h4>
+                    <ul>
+                        <li onclick="document.getElementById('head-section').style.color='yellow'"><i
+                                class="fas fa-circle yellow" title="yellow"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='red'"><i
+                                class="fas fa-circle red" title="red"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='gray'"><i
+                                class="fas fa-circle gray" title="gray"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='brown'"><i
+                                class="fas fa-circle brown" title="brown"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='purple'"><i
+                                class="fas fa-circle purple" title="purple"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='tomato'"><i
+                                class="fas fa-circle tomato" title="tomato"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='royalblue'"><i
+                                class="fas fa-circle royalblue" title="royalblue"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='navy'"><i
+                                class="fas fa-circle navy" title="navy"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='white'"><i class="fas fa-circle white" title="white"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color=' khaki'"><i class="fas fa-circle  khaki" title=" khaki"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='indigo'"><i class="fas fa-circle indigo" title="indigo"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='violet'"><i class="fas fa-circle violet" title="violet"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='teal'"><i class="fas fa-circle teal" title="teal"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='skyblue'"><i class="fas fa-circle skyblue" title="skyblue"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='silver'"><i class="fas fa-circle silver" title="silver"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='plum'"><i class="fas fa-circle plum" title="plum"></i></li>
+                        <li onclick="document.getElementById('head-section').style.color='fuchsia'"><i class="fas fa-circle fuchsia" title="fuchsia"></i></li>
+                       
+                    </ul>
+
+                    <h4 style="color: white;">background color</h4>
+
+                    <ul  class="color-align">
+                        <li onclick="document.getElementById('head-section').style.backgroundColor='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('head-section').style.backgroundColor='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('head-section').style.backgroundColor='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+
+                        <select onchange="back(this.value)">
+                            <option value="pink">pink</option>
+                            <option value="chartreuse">chartreuse</option>
+                            <option value="darkgreen" selected>darkgreen</option>
+                            <option value="cadetblue">cadetblue</option>
+                            <option value="darkkhaki">darkkhaki</option>
+                            <option value="cyan">cyan</option>
+                            <option value="papayawhip">papayawhip</option>
+                            <option value="yellow">yellow</option>
+                        </select>
+
+
+                    </ul>
+                
+
+                    <!-- data-->
+                </div>
+                <div class="box-button">
+                    <h3 style="text-align: center; color: white;"> Data secation</h3>
+                    <hr>
+                    <h4 style="color: white;">align</h4>
+                    <ul  class="color-align">
+                        <li onclick="document.getElementById('data-secation').style.textAlign='left'"><i
+                                class="fas fa-align-left" title="left"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.textAlign='center'"><i
+                                class="fas fa-align-center" title="center"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.textAlign='right'"><i
+                                class="fas fa-align-right" title="right"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.textAlign='justify'"><i
+                                class="fas fa-align-justify" title="justify"></i></li>
+
+
+                    </ul>
+                    <!-- <ul>
+                            <li> -->
+
+                    <p>
+                     <h4 style="padding-top: 5px; color: white;">font size & font style</h4>
+                    <select class="section" onchange="fontemm(this.value)">
+                        <option value="8px">12</option>
+                        <option value="9px">13</option>
+                        <option value="10px">14</option>
+                        <option value="12px">15</option>
+                        <option value="1rem">16</option>
+                        <option value="1.5rem">17</option>
+                        <option value="2rem">18</option>
+                        <option value="2.5rem">19</option>
+                        <option value="3rem">20</option>
+                    </select>
+
+                    <select class="section" onchange="copy(this.value)">
+                        <option value="italic"> italic</option>
+                        <option value="oblique">oblique</option>
+                        <option value=" normal"> normal</option>
+                    </select>
+
+                    <select class="section" onchange="weightt(this.value)">
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="400">400</option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
+                        <option value="700">700</option>
+                        <option value="800">800</option>
+                        <option value="900">900</option>
+                        <option value="bold" selected>bold</option>
+                        <option value="bolder">bolder</option>
+                        <option value="lighter">lighter</option>
+                    </select>
+                    
+                    </p>
+
+                    <!-- </li>
+                        </ul> -->
+
+                    <h4 style="padding-top: 2px; color: white;">font color</h4>
+                    <ul>
+                        <li onclick="document.getElementById('data-secation').style.color='yellow'"><i
+                                class="fas fa-circle yellow" title="yellow"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='red'"><i
+                                class="fas fa-circle red" title="red"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='gray'"><i
+                                class="fas fa-circle gray" title="gray"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='brown'"><i
+                                class="fas fa-circle brown" title="brown"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='purple'"><i
+                                class="fas fa-circle purple" title="purple"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='tomato'"><i
+                                class="fas fa-circle tomato" title="tomato"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='royalblue'"><i
+                                class="fas fa-circle royalblue" title="royalblue"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='navy'"><i
+                                class="fas fa-circle navy" title="navy"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='white'"><i
+                                class="fas fa-circle white" title="white"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color=' khaki'"><i class="fas fa-circle  khaki" title=" khaki"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='indigo'"><i class="fas fa-circle indigo" title="indigo"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='violet'"><i class="fas fa-circle violet" title="violet"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='teal'"><i class="fas fa-circle teal" title="teal"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='skyblue'"><i class="fas fa-circle skyblue" title="skyblue"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='silver'"><i class="fas fa-circle silver" title="silver"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='plum'"><i class="fas fa-circle plum" title="plum"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.color='fuchsia'"><i class="fas fa-circle fuchsia" title="fuchsia"></i></li>
+                    </ul>
+
+                    <h4 style="color: white;">background color</h4>
+
+                    <ul>
+                        <li onclick="document.getElementById('data-secation').style.backgroundColor='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.backgroundColor='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('data-secation').style.backgroundColor='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+
+                        <select onchange="backk(this.value)">
+                            <option value="pink">pink</option>
+                            <option value="chartreuse">chartreuse</option>
+                            <option value="darkgreen" selected>darkgreen</option>
+                            <option value="cadetblue">cadetblue</option>
+                            <option value="darkkhaki">darkkhaki</option>
+                            <option value="cyan">cyan</option>
+                            <option value="papayawhip">papayawhip</option>
+                            <option value="yellow">yellow</option>
+                        </select>
+
+
+                    </ul>
+                    <!-- /data-->
+                </div>
+                <div class="image-button">
+                    <h3>Image secation</h3>
+                    <hr>
+                    <ul>
+                        <li onclick="document.getElementById('horse').src='image/image1.jpg'"><img src="image/image1.jpg" width="40px" height="40px"></li>
+                        <li onclick="document.getElementById('horse').src='image/image2.jpg'"><img src="image/image2.jpg" width="40px" height="40px"></li>
+                        <li onclick="document.getElementById('horse').src='image/image3.jpg'"><img src="image/image3.jpg" width="40px" height="40px"></li>
+                        <li onclick="document.getElementById('horse').src='image/image4.jpg'"><img src="image/image4.jpg" width="40px" height="40px"></li>
+                    </ul>
+
+                   
+                      <ul>
+                        <li>
+                            <select name="" id="" onchange="proimage(this.value)">
+                                <optgroup label="pro" disabled>
+                                    <option value="image">horse</option>
+                                    <option value="image">dainosour</option>
+                                    <option value="image">dragion</option>
+                                    <option value="image">Taj Mahal</option>
+                                    <option value="image">Red fort</option>
+                                    <option value="image">Lotus temple</option>
+                                </optgroup>
+
+                                <optgroup label="free">
+                                    <option value="image/image5.jpg">image1</option>
+                                    <option value="image/image6.jpg">image2</option>
+                                    <option value="image/image7.jpg">image3</option>
+                                    <option value="image/image8.jpg">image4</option>
+                                    <option value="image/image9.jpg">image5</option>
+                                    <option value="image/image10.jpg">image6</option>
+                                    <option value="image/image11.jpg">image7</option>
+                                    <option value="image/image12.jpg">image8</option>
+                                    <option value="image/image14.jpg">image9</option>
+                                    
+                                </optgroup>
+                            </select>
+                        </li>
+                      </ul>
+                      
+                </div>
+                <div class="box-button">
+               <!-- containt copy -->
+               <h4 style="text-align: center; color: white;">Containt-secation</h4>
+               <hr>
+               <h4 style="color: white;">align</h4>
+               <ul  class="color-align">
+                   <li onclick="document.getElementById('containt-hold').style.textAlign='left'"><i
+                           class="fas fa-align-left" title="left"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.textAlign='center'"><i
+                           class="fas fa-align-center" title="center"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.textAlign='right'"><i
+                           class="fas fa-align-right" title="right"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.textAlign='justify'"><i
+                           class="fas fa-align-justify" title="justify"></i></li>
+
+
+               </ul>
+               <!-- <ul>
+                       <li> -->
+
+               <p>
+              
+                <h4 style="padding: 5px;">font size & font style</h4>
+               <select class="section" onchange="fontemmm(this.value)">
+                   <option value="8px">12</option>
+                   <option value="9px">13</option>
+                   <option value="10px">14</option>
+                   <option value="12px">15</option>
+                   <option value="1rem">16</option>
+                   <option value="1.5rem">17</option>
+                   <option value="2rem">18</option>
+                   <option value="2.5rem">19</option>
+                   <option value="3rem">20</option>
+               </select>
+
+               <select class="section" onchange="copyy(this.value)">
+                   <option value="italic"> italic</option>
+                   <option value="oblique">oblique</option>
+                   <option value=" normal"> normal</option>
+               </select>
+
+               <select class="section" onchange="wweightt(this.value)">
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+                <option value="bold" selected>bold</option>
+                <option value="bolder">bolder</option>
+                <option value="lighter">lighter</option>
+            </select>
+               </p>
+
+               <!-- </li>
+                   </ul> -->
+
+               <h4 style="padding-top: 2px;">fon color: white;t color</h4>
+               <ul>
+                   <li onclick="document.getElementById('containt-hold').style.color='yellow'"><i
+                           class="fas fa-circle yellow" title="yellow"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='red'"><i
+                           class="fas fa-circle red" title="red"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='blue'"><i
+                           class="fas fa-circle blue" title="blue"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='green'"><i
+                           class="fas fa-circle green" title="green"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='gray'"><i
+                           class="fas fa-circle gray" title="gray"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='aqua'"><i
+                           class="fas fa-circle aqua" title="aqua"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='brown'"><i
+                           class="fas fa-circle brown" title="brown"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='purple'"><i
+                           class="fas fa-circle purple" title="purple"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='tomato'"><i
+                           class="fas fa-circle tomato" title="tomato"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='royalblue'"><i
+                           class="fas fa-circle royalblue" title="royalblue"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='navy'"><i
+                           class="fas fa-circle navy" title="navy"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.color='white'"><i
+                           class="fas fa-circle white" title="white"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color=' khaki'"><i class="fas fa-circle  khaki" title=" khaki"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='indigo'"><i class="fas fa-circle indigo" title="indigo"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='violet'"><i class="fas fa-circle violet" title="violet"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='teal'"><i class="fas fa-circle teal" title="teal"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='skyblue'"><i class="fas fa-circle skyblue" title="skyblue"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='silver'"><i class="fas fa-circle silver" title="silver"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='plum'"><i class="fas fa-circle plum" title="plum"></i></li>
+                        <li onclick="document.getElementById('containt-hold').style.color='fuchsia'"><i class="fas fa-circle fuchsia" title="fuchsia"></i></li>
+               </ul>
+
+               <h4 style="color: white;">background color</h4>
+
+               <ul>
+                   <li onclick="document.getElementById('containt-hold').style.backgroundColor='aqua'"><i
+                           class="fas fa-circle aqua" title="aqua"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.backgroundColor='blue'"><i
+                           class="fas fa-circle blue" title="blue"></i></li>
+                   <li onclick="document.getElementById('containt-hold').style.backgroundColor='green'"><i
+                           class="fas fa-circle green" title="green"></i></li>
+
+                   <select onchange="bacckkk(this.value)">
+                       <option value="pink">pink</option>
+                       <option value="chartreuse">chartreuse</option>
+                       <option value="darkgreen" selected>darkgreen</option>
+                       <option value="cadetblue">cadetblue</option>
+                       <option value="darkkhaki">darkkhaki</option>
+                       <option value="cyan">cyan</option>
+                       <option value="papayawhip">papayawhip</option>
+                       <option value="yellow">yellow</option>
+                   </select>
+
+
+               </ul>
+               
+
+               <!-- /containt copy -->
+                     
+                     
+                </div>
+                <div class="box-button">
+                    <!-- footer -->
+                    <h3 style="text-align: center; color: white;">Footer-secation</h3>
+                    <hr>
+                    <h4 style="color: white;">align</h4>
+                    <ul  class="color-align">
+                        <li onclick="document.getElementById('footer-deco').style.textAlign='left'"><i
+                                class="fas fa-align-left" title="left"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.textAlign='center'"><i
+                                class="fas fa-align-center" title="center"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.textAlign='right'"><i
+                                class="fas fa-align-right" title="right"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.textAlign='justify'"><i
+                                class="fas fa-align-justify" title="justify"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.lineHeight='35px'"><i
+                                        class="fas fa-grip-lines" title="valign"></i></li>
+
+                    </ul>
+                    <!-- <ul>
+                            <li> -->
+
+                    <p>
+                   <h4 style="padding-top: 5px; color: white;">font size & font style</h4>
+                    <select class="section" onchange="footerbye(this.value)">
+                        <option value="8px">12</option>
+                        <option value="9px">13</option>
+                        <option value="10px">14</option>
+                        <option value="12px">15</option>
+                        <option value="1rem">16</option>
+                        <option value="1.5rem">17</option>
+                        <option value="2rem">18</option>
+                        <option value="2.5rem">19</option>
+                        <option value="3rem">20</option>
+                    </select>
+
+                    <select class="section" onchange="fotcopy(this.value)">
+                        <option value="italic"> italic</option>
+                        <option value="oblique">oblique</option>
+                        <option value=" normal"> normal</option>
+                    </select>
+                    <select class="section" onchange="weeightt(this.value)">
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="300">300</option>
+                        <option value="400">400</option>
+                        <option value="500">500</option>
+                        <option value="600">600</option>
+                        <option value="700">700</option>
+                        <option value="800">800</option>
+                        <option value="900">900</option>
+                        <option value="bold" selected>bold</option>
+                        <option value="bolder">bolder</option>
+                        <option value="lighter">lighter</option>
+                    </select>
+
+                    </p>
+
+                    <!-- </li>
+                        </ul> -->
+
+                    <h4 style="padding-top: 2px; color: white;">font color</h4>
+                    <ul>
+                        <li onclick="document.getElementById('footer-deco').style.color='yellow'"><i
+                                class="fas fa-circle yellow" title="yellow"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='red'"><i
+                                class="fas fa-circle red" title="red"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='gray'"><i
+                                class="fas fa-circle gray" title="gray"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='brown'"><i
+                                class="fas fa-circle brown" title="brown"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='purple'"><i
+                                class="fas fa-circle purple" title="purple"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='tomato'"><i
+                                class="fas fa-circle tomato" title="tomato"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='royalblue'"><i
+                                class="fas fa-circle royalblue" title="royalblue"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='navy'"><i
+                                class="fas fa-circle navy" title="navy"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.color='white'"><i
+                                class="fas fa-circle white" title="white"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color=' khaki'"><i class="fas fa-circle  khaki" title=" khaki"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='indigo'"><i class="fas fa-circle indigo" title="indigo"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='violet'"><i class="fas fa-circle violet" title="violet"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='teal'"><i class="fas fa-circle teal" title="teal"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='skyblue'"><i class="fas fa-circle skyblue" title="skyblue"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='silver'"><i class="fas fa-circle silver" title="silver"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='plum'"><i class="fas fa-circle plum" title="plum"></i></li>
+                                <li onclick="document.getElementById('footer-deco').style.color='fuchsia'"><i class="fas fa-circle fuchsia" title="fuchsia"></i></li>
+                    </ul>
+
+                    <h4 style="color: white;">background color</h4>
+
+                    <ul>
+                        <li onclick="document.getElementById('footer-deco').style.backgroundColor='aqua'"><i
+                                class="fas fa-circle aqua" title="aqua"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.backgroundColor='blue'"><i
+                                class="fas fa-circle blue" title="blue"></i></li>
+                        <li onclick="document.getElementById('footer-deco').style.backgroundColor='green'"><i
+                                class="fas fa-circle green" title="green"></i></li>
+
+                        <select onchange="fotdeco(this.value)">
+                            <option value="pink">pink</option>
+                            <option value="chartreuse">chartreuse</option>
+                            <option value="darkgreen" selected>darkgreen</option>
+                            <option value="cadetblue">cadetblue</option>
+                            <option value="darkkhaki">darkkhaki</option>
+                            <option value="cyan">cyan</option>
+                            <option value="papayawhip">papayawhip</option>
+                            <option value="yellow">yellow</option>
+                        </select>
+
+
+                    </ul>
+                
+                    <!-- /footer -->
+                </div>
+            </div>
+            <div class="black-shadow">
+                <div class="heading">
+                    <div class="try1"><textarea name="mes" class="heading" id="head-section"
+                            placeholder="heading"></textarea></div>
+                    <div class="try2"><textarea name="mes" class="data" placeholder="data"
+                            id="data-secation"></textarea></div>
+                    <div class="try3">
+                        <img src="image/image13.jpg" id="horse">
+                </div>
+                    <div class="try4"><textarea name="mes" class="containt" placeholder="containt" id="containt-hold"></textarea></div>
+                    <div class="try5"><textarea name="mes" class="footer" placeholder="footer" id="footer-deco"></textarea></div>
+                  
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; all page reserves</p>
+        </div>
+    </div>
+
+    <script src="note css.css/create.js"></script>
+</body>
+
+</html>
